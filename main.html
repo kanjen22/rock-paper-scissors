@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mainStyle.css">
+</head>
+
+<body id="result">
+    <audio id="clickSound" src="./sounds/click.mp3"></audio>
+    <audio id="winSound" src="./sounds/win.wav"></audio>
+    <audio id="loseSound" src="./sounds/lose.wav"></audio>
+    <h1 class="welcome-message"></h1>
+    <h2>Score 5 points to beat the computer.</h2>
+    <div class="score-board">Player score: 0 | Computer score: 0</div>
+    <div>
+        <button>Rock</button>
+        <button>Scissor</button>
+        <button>Paper</button>
+    </div>
+    <div class="match-result">Pick your choice!</div>
+    <div class="final-result"></div>
+    <div class="restartContainer">
+        <button><a href="javascript:window.location.href=window.location.href">Play again!</a></button>
+        <button><a href="index.html">Different player!</a></button>
+    </div>
+</body>
+<!-- link javascript.js to html -->
+<script src="javascript.js"></script>
+
+</html>
